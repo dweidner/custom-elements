@@ -1,0 +1,31 @@
+{
+  "name": "@dweidner/custom-elements",
+  "private": true,
+  "description": "A collection of various custom elements.",
+  "license": "ISC",
+  "type": "module",
+  "author": {
+    "name": "Daniel Weidner",
+    "email": "hallo@danielweidner.de",
+    "url": "https://danielweidner.de/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dweidner/custom-elements.git"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "lint": "eslint .",
+    "format": "eslint --fix ."
+  },
+  "dependencies": {
+    "common-tags": "^1.8.2",
+    "entities": "^6.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "eslint-plugin-jsdoc": "^50.7.1",
+    "globals": "^16.2.0"
+  }
+}
