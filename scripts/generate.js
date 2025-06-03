@@ -72,7 +72,10 @@ async function* getCollection(endpoint, data = {}) {
  * @yields {object}
  */
 async function* getRepositories(user) {
-  yield* getCollection(`/users/${user}/repos`);
+  yield* getCollection(`/users/${user}/repos`, {
+    sort: 'full_name',
+    direction: 'asc',
+  });
 }
 
 /**
