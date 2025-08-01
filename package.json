@@ -23,9 +23,9 @@
     "entities": "^6.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.28.0",
-    "eslint": "^9.28.0",
-    "eslint-plugin-jsdoc": "^50.7.1",
-    "globals": "^16.2.0"
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-jsdoc": "^52.0.2",
+    "globals": "^16.3.0"
   }
 }
